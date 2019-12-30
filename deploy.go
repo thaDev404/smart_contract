@@ -22,7 +22,7 @@ func mains() {
 	}
 
 	// Get credentials for the account to charge for contract deployments
-	auth, err := bind.NewTransactor(strings.NewReader(key), "Jesuskid123,")
+	auth, err := bind.NewTransactor(strings.NewReader(key), "*******,")
 
 	if err != nil {
 		log.Fatalf("Failed to create authorized transactor: %v", err)
